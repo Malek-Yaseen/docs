@@ -1,91 +1,88 @@
 {
   "$schema": "https://mintlify.com/schema.json",
-  "name": "Starter Kit",
+  "name": "O.XYZ Documentation",
   "logo": {
     "dark": "/logo/dark.svg",
     "light": "/logo/light.svg"
   },
   "favicon": "/favicon.svg",
   "colors": {
-    "primary": "#0D9373",
-    "light": "#07C983",
-    "dark": "#0D9373",
+    "primary": "#123456", 
+    "light": "#abcdef",
+    "dark": "#123456",
     "anchors": {
-      "from": "#0D9373",
-      "to": "#07C983"
+      "from": "#123456",
+      "to": "#abcdef"
     }
   },
   "topbarLinks": [
     {
       "name": "Support",
-      "url": "mailto:hi@mintlify.com"
+      "url": "mailto:support@o.xyz"
+    },
+    {
+      "name": "Community",
+      "url": "https://community.o.xyz"
     }
   ],
   "topbarCtaButton": {
     "name": "Dashboard",
-    "url": "https://dashboard.mintlify.com"
+    "url": "https://dashboard.o.xyz"
   },
   "tabs": [
     {
       "name": "API Reference",
-      "url": "api-reference"
-    }
-  ],
-  "anchors": [
-    {
-      "name": "Documentation",
-      "icon": "book-open-cover",
-      "url": "https://mintlify.com/docs"
-    },
-    {
-      "name": "Community",
-      "icon": "slack",
-      "url": "https://mintlify.com/community"
-    },
-    {
-      "name": "Blog",
-      "icon": "newspaper",
-      "url": "https://mintlify.com/blog"
+      "url": "/api-reference"
     }
   ],
   "navigation": [
     {
-      "group": "Get Started",
+      "group": "Overview",
       "pages": [
-        "introduction",
-        "quickstart",
-        "development"
+        {
+          "name": "I AM O",
+          "url": "/p/4F-OnsW43Xk97B/I-AM-O"
+        },
+        {
+          "name": "Master Plan",
+          "url": "/p/DopS6VA0LLNnMY/Master-Plan"
+        }
       ]
     },
     {
-      "group": "Essentials",
+      "group": "Products",
       "pages": [
-        "essentials/markdown",
-        "essentials/code",
-        "essentials/images",
-        "essentials/settings",
-        "essentials/navigation",
-        "essentials/reusable-snippets"
+        {
+          "name": "O COIN",
+          "url": "/p/89YxjTUrGdbFmo/O-COIN"
+        },
+        {
+          "name": "O RESEARCH",
+          "url": "/p/W-h_WXSTN0-hGp/O-RESEARCH"
+        },
+        {
+          "name": "O INTELLIGENCE",
+          "url": "/p/-07Pseplcv5l47/O-INTELLIGENCE-OI"
+        },
+        {
+          "name": "O INFRASTRUCTURE",
+          "url": "/p/MmerH0esdSIIuo/O-INFRASTRUCTURE"
+        }
       ]
     },
     {
-      "group": "API Documentation",
+      "group": "Resources",
       "pages": [
-        "api-reference/introduction"
-      ]
-    },
-    {
-      "group": "Endpoint Examples",
-      "pages": [
-        "api-reference/endpoint/get",
-        "api-reference/endpoint/create",
-        "api-reference/endpoint/delete"
+        {
+          "name": "O.XYZ Media Kit",
+          "url": "/p/xj7GFS9t1U5CHn/O-XYZ-MEDIA-KIT"
+        }
       ]
     }
   ],
   "footerSocials": {
-    "x": "https://x.com/mintlify",
-    "github": "https://github.com/mintlify",
-    "linkedin": "https://linkedin.com/company/mintlify"
+    "x": "https://x.com/o_xyz",
+    "github": "https://github.com/o-xyz",
+    "linkedin": "https://linkedin.com/company/o-xyz"
   }
 }
